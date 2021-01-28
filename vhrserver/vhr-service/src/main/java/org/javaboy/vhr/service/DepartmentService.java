@@ -18,7 +18,6 @@ import java.util.List;
  */
 @Service
 public class DepartmentService {
-    //测试011111
     @Autowired
     DepartmentMapper departmentMapper;
     public List<Department> getAllDepartments() {
