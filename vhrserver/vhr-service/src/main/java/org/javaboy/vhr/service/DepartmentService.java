@@ -19,6 +19,7 @@ import java.util.List;
 @Service
 public class DepartmentService {
     //123456-0000000000000000000000000
+    //654321
     @Autowired
     DepartmentMapper departmentMapper;
     public List<Department> getAllDepartments() {
